@@ -1,0 +1,23 @@
+l1=[]
+l2=[]
+n=int(input(" Enter the no of elements in LIST I  "))
+print("Enter the elements of LIST I : ")
+
+for i in range(n):
+    l1.append(int(input()))
+    
+n=int(input(" Enter the no of elements in LIST I  "))
+print("Enter the elements of LIST II : ")
+
+for j in range(n):
+    l2.append(int(input()))
+    
+print(" The positive elements are: ") 
+
+for k in l1 :
+    if (k>=0) :
+        print (" ",k,end=' ')
+
+for l in l2 :
+    if (l>=0) :
+        print (" ",l,end=' ')
